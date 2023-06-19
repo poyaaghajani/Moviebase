@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Moviebase</h1>
 
-<p id="description">UI chalange</p>
+<p id="description">UI chalange, smooth and fantastic UI for movie applications</p>
 
 <h2>💻 Built with</h2>
 
