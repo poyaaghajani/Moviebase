@@ -186,9 +186,9 @@ class MovieScreen extends StatelessWidget {
           spacing: 9,
           children: [
             ...List.generate(
-              movie.cat.length,
+              movie.cat!.length,
               (index) => CatChip(
-                text: movie.cat[index],
+                text: movie.cat![index],
               ),
             ),
           ],

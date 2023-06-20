@@ -2,11 +2,11 @@ class Movie {
   Movie({
     required this.name,
     required this.image,
-    required this.cat,
+    this.cat,
   });
   final String name;
   final String image;
-  final List<String> cat;
+  final List<String>? cat;
 }
 
 final movies = [
@@ -111,5 +111,88 @@ final movies = [
     image:
         'https://images.fandango.com/ImageRenderer/820/0/redesign/static/img/default_poster.png/0/images/masterrepository/fandango/229098/FBM_Tsr1Sheet5_RGB_1.jpg',
     cat: ['cinema', 'fancy'],
+  ),
+];
+
+final mostView = [
+  Movie(
+    name: 'Groot',
+    image:
+        'https://images.unsplash.com/photo-1592513002316-e4fa19175023?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVsa3xlbnwwfDF8MHx8fDI%3D&auto=format&fit=crop&w=500&q=60',
+  ),
+  Movie(
+    name: 'The whale',
+    image: 'https://images.static-bluray.com/products/20/117304_2_large.jpg',
+  ),
+  Movie(
+    name: 'Top gunn - Maverick',
+    image:
+        'https://images.hdqwalls.com/download/2022-top-gun-maverick-zz-1080x1920.jpg',
+  ),
+  Movie(
+    name: 'Spiderman',
+    image:
+        'https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vdmllfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'John Wick 4',
+    image: 'https://image.tmdb.org/t/p/w500//vLuWnBnCRTU8WxihMGkebcbu5f.jpg',
+  ),
+  Movie(
+    name: 'Together for Ever',
+    image:
+        'https://images.unsplash.com/photo-1543427663-93b817b10081?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWN0aW9uJTIwbW92aWV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'The Joker',
+    image:
+        'https://images.unsplash.com/photo-1620510625142-b45cbb784397?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vdmllfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'The Batman',
+    image:
+        'https://trailers.apple.com/trailers/wb/the-batman/images/poster-large.jpg?lastmod=1',
+  ),
+];
+
+final bestSeller = [
+  Movie(
+    name: 'Spiderman',
+    image:
+        'https://images.unsplash.com/photo-1635805737707-575885ab0820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vdmllfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'Bruno',
+    image:
+        'https://images.unsplash.com/photo-1632624011013-baf2251f5de0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEhvcnJvciUyMG1vdmllc3xlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'Top gunn - Maverick',
+    image:
+        'https://images.hdqwalls.com/download/2022-top-gun-maverick-zz-1080x1920.jpg',
+  ),
+  Movie(
+    name: 'Love Story',
+    image:
+        'https://images.unsplash.com/photo-1579702493440-8b1b56d47e03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWN0aW9uJTIwbW92aWV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'Chuckie',
+    image:
+        'https://images.unsplash.com/photo-1611787640592-ebf78080d96e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9ycm9yJTIwbW92aWV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'Argentina',
+    image: 'https://images.static-bluray.com/products/20/134733_1_large.jpg',
+  ),
+  Movie(
+    name: 'The Joker',
+    image:
+        'https://images.unsplash.com/photo-1620510625142-b45cbb784397?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vdmllfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60',
+  ),
+  Movie(
+    name: 'Elvis',
+    image:
+        'https://images.wallpapersden.com/image/download/elvis-movie-2022_bWdlaGeUmZqaraWkpJRmZ21lrWdmZ2U.jpg',
   ),
 ];
