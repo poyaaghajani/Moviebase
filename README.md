@@ -1,16 +1,35 @@
-# movies_ui
+<h1 align="center" id="title">Moviebase</h1>
 
-A new Flutter project.
+<p id="description">UI chalange, smooth and fantastic UI for movie applications</p>
 
-## Getting Started
+<h2>💻 Built with</h2>
 
-This project is a starting point for a Flutter application.
+Technologies used in the project:
 
-A few resources to get you started if this is your first Flutter project:
+*   Flutter_block
+*   Cached_network_image
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<h3>🦖 Video</h3> 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+https://github.com/poyaaghajani/Moviebase/assets/107408431/305f5e56-9a6e-4462-a1d5-7f6062e67fc9
+
+<h3>🦖 ScreenShots</h3>
+
+![Screenshot_20230619-151353](https://github.com/poyaaghajani/Moviebase/assets/107408431/ef2d99c8-6285-4880-a3af-6d4289472ef5)
+
+
+
+![Screenshot_20230619-151406](https://github.com/poyaaghajani/Moviebase/assets/107408431/2e9c1e30-8a34-4921-a836-63340aad785f)
+
+
+
+![Screenshot_20230619-151424](https://github.com/poyaaghajani/Moviebase/assets/107408431/60dcc6f2-287f-4c9c-9cfe-9db8eec46bdb)
+
+
+
+![Screenshot_20230619-151432](https://github.com/poyaaghajani/Moviebase/assets/107408431/fe04f57c-43bb-447b-aa3f-5d0e1f16679d)
+
+
+
+
