@@ -32,4 +32,5 @@ https://github.com/poyaaghajani/Moviebase/assets/107408431/305f5e56-9a6e-4462-a1
 
 
 
+![Screenshot_20230620-175532](https://github.com/poyaaghajani/Moviebase/assets/107408431/b7c7c5b4-9115-4781-8cf4-9f807f19219d)
 
